@@ -3,6 +3,7 @@ import Header from '../components/Header';
 
 const Home = () => {
   return (
+
     <div>
       <Navbar />
       <Header />
@@ -11,6 +12,8 @@ const Home = () => {
           Welcome to Next.js with Tailwind CSS
         </h1>
       </main>
+
+
     </div>
   );
 };
