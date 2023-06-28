@@ -1,5 +1,7 @@
 import Navbar from '../components/Navbar';
 import Header from '../components/Header';
+import Main from '../components/Main';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -7,13 +9,8 @@ const Home = () => {
     <div>
       <Navbar />
       <Header />
-      <main>
-        <h1 className="text-4xl font-bold text-center">
-          Welcome to Next.js with Tailwind CSS
-        </h1>
-      </main>
-
-
+      <Main/>
+      <Footer/>
     </div>
   );
 };
